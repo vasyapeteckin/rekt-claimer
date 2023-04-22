@@ -57,7 +57,7 @@ class W3User:
         if signature['signature']:
             bytes_signature = signature['signature'].encode('utf-8')
 
-            claim_txn = await self.rekt_distributor_contract.functions.claim(int(516800000000000), bytes_signature, self.referrer_address).build_transaction({
+            claim_txn = await self.rekt_distributor_contract.functions.claim(int(signature['nonce']), bytes_signature, self.referrer_address).build_transaction({
                 'from': self.signer.address,
                 'gas': self.min_gas_limit,
                 'gasPrice': gas_price,
