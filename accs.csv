@@ -1,0 +1,3 @@
+private_key,referrer_address,max_gas_price,min_gas_limit,http_rpc
+PRIVATE_KEY,0x47c8cA87345e36A94fd2DA34d35d85d662962357,10,800000,https://arb1.arbitrum.io/rpc
+PRIVATE_KEY,0x47c8cA87345e36A94fd2DA34d35d85d662962357,10,800000,https://arb1.arbitrum.io/rpc
